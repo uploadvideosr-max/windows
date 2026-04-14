@@ -41,6 +41,27 @@ header p{
   opacity:.85;
 }
 
+  /* HOME BUTTON */
+.home-btn{
+  position:absolute;
+  top:20px;
+  right:20px;
+  background:#fff;
+  color:#000;
+  padding:10px 14px;
+  border-radius:50%;
+  font-size:18px;
+  text-decoration:none;
+  transition:.3s;
+}
+
+.home-btn:hover{
+  background:#ff0000;
+  color:#fff;
+  transform:scale(1.1);
+  box-shadow:0 0 10px rgba(255,0,0,0.6);
+}
+  
 @keyframes colorShift{
   0%{color:#25d366;text-shadow:0 0 10px #25d366}
   50%{color:#4da3ff;text-shadow:0 0 10px #4da3ff}
@@ -122,6 +143,11 @@ footer{
 <body>
 
 <header>
+
+  <a href="https://uploadvideosr-max.github.io/00/" class="home-btn">
+  <i class="fas fa-home"></i>
+</a>
+  
   <div class="main-logo">Balkan Media</div>
   <h1><i class="fab fa-windows"></i> Windows aplikacije</h1>
   <p>Direktno preuzimanje aplikacija</p>
